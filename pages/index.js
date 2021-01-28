@@ -4,6 +4,7 @@ import Widget from '../src/components/Widget';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
+import Head from 'next/head';
 
 const BackgroundImage = styled.div`
   background-image: url(${db.bg});
@@ -26,6 +27,11 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
+      <Head>
+        <meta property="og:image"content="https://images2.alphacoders.com/474/thumb-1920-474477.jpg"/>
+
+        <title>DragonQuiz</title>
+      </Head>
       <QuizContainer>
         <Widget>
           <Widget.Header>
