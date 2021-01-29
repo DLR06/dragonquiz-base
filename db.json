@@ -1,28 +1,66 @@
 {
     "bg": "https://images6.alphacoders.com/647/thumb-1920-647546.jpg",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "title": "Dragon Ball Quiz",
+    "description": "Teste os seus conhecimentos sobre Dragon Ball",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
+        "image": "https://images4.alphacoders.com/538/thumb-1920-53836.jpg",
+        "title": "Na imagem acima, o que Goku está comendo?",
         "description": "Essa é pra aquecer",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Algodão Doce",
+          "A nuvem voadora",
+          "Nuvem",
+          "Nenhuma das opções"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
+        "image": "https://images6.alphacoders.com/300/thumb-1920-300078.png",
+        "title": "Quantas esferas do Dragão são necessárias para invocar o Shenlong?",
         "description": "Faz tempo em haha",
+        "answer": 2,
+        "alternatives": [
+           "06",
+           "10",
+           "07",
+           "09"
+        ]
+      },
+      {
+        "image": "https://images5.alphacoders.com/993/thumb-1920-993273.jpg",
+        "title": "Quem é o personagem da imagem acima?",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+           "Mestre Kame",
+           "Son Gohan",
+           "Jackie Chun",
+           "Dr. Briefs"
+        ]
+      },
+      {
+        "image": "https://images5.alphacoders.com/522/thumb-1920-522278.jpg",
+        "title": "Qual Dragon Ball o avô de Goku deixou de herança?",
+        "description": "",
+        "answer": 3,
+        "alternatives": [
+           "01 Estrela",
+           "03 Estrelas",
+           "07 Estrelas",
+           "04 Estrelas"
+        ]
+      },
+      {
+        "image": "https://images3.alphacoders.com/834/thumb-1920-834321.jpg",
+        "title": "Qual personagem foi o primeiro a se transformar em Super Sayajin 2?",
+        "description": "",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Gohan",
+           "Vegeta",
+           "Trunks",
+           "Goku"
         ]
       }
     ],
